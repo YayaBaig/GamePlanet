@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="404.0" prefWidth="539.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+   <children>
+      <ImageView fitHeight="420.0" fitWidth="555.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./asset/bg.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="71.0" layoutX="454.0" onMouseClicked="#play" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./asset/bt.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rec" fitHeight="43.0" fitWidth="71.0" layoutX="454.0" layoutY="178.0" onMouseClicked="#record" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./asset/bt.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="474.0" layoutY="117.0" text="Start" textFill="#110000">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="183.0" text="Record">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
